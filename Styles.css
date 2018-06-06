@@ -1,0 +1,117 @@
+.body {
+  font-family: "Open Sans Light";
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+}
+
+.text {
+  font-family: "Open Sans Light";
+  font-size: 2.5vw;
+  max-width: 100%;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+
+}
+
+.space {
+  padding: 1px 10px 10px 1000px;
+  padding-left: 12%;
+  padding-top: 0.5%;
+  padding-right: 12%;
+
+}
+
+.btnback {
+  background-color: #c5e8ed;
+  padding: .1px 50px .1px .1px;
+  text-align: right;
+  display: block;
+  margin: 0px auto;
+
+}
+
+.btntext {
+  font-family: "Josefin Sans";
+  font-size: 1.5vw;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+}
+
+.container{
+    background-image:url(https://wallpaper.wiki/wp-content/uploads/2017/06/Simple-wallpapers-HD-for-desktop.png);
+    background-position:center;
+    width: 100%;
+    height: 100%;
+}
+
+.skyline {
+  max-width: 100%;
+  height: auto;
+}
+
+.button{
+  background-color:	#c5e8ed;
+  border: none;
+  color: #55A8A3;
+  padding: 1px;
+  text-align: center;
+  text-decoration: none;
+  margin: 1em;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+.button:hover{
+  color: black;
+}
+
+.button span {
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+ .button:hover span{
+   padding-right: 25px;
+ }
+ .button:hover span:after {
+   opacity: 1;
+   right: 0;
+ }
+
+.table {
+  display: table;
+  margin: 0-auto;
+}
+
+ul#horizontal-list {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
+ul#horizontal-list li {
+  display: inline;
+}
+
+html{
+  background-color: #c5e8ed;
+  margin:0;
+  padding:0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
