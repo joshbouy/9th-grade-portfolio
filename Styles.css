@@ -8,6 +8,7 @@
 
 .text {
   font-family: "Open Sans Light";
+  src: url("https://fonts.google.com/download?family=Open%20Sans");
   font-size: 2.5vw;
   max-width: 100%;
   font-style: normal;
