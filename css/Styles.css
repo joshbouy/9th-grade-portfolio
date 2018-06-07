@@ -163,19 +163,24 @@ h1{
 }
 
 .text-p2{
-  text-align: center;
-  font-family: "Open Sans";
+  font-family: "Open Sans Light";
   src: url("https://fonts.google.com/download?family=Open%20Sans");
-  font-size: 1vw;
+  font-size: 1em;
+  max-width: 100%;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
   color: grey;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  max-width: 100%;
-  height: auto;
+  line-height: 1.1;
+  box-sizing: border-box;
+  padding: 0 0 0;
+  margin: 0;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
 }
 
 .space {
@@ -232,11 +237,23 @@ h1{
   font-weight: 400;
 }
 
-.skyline {
-  max-width: 100%;
+#skyline {
+  max-width: 2000px;
   height: auto;
-  margin: 0;
-  padding: 10px 0px 0px 0px;
+  margin: 0 auto;
+  padding: 50px 0px 0px 0px;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  display: block;
+}
+img{
+  width: 100%;
+  vertical-align: middle;
+  border: 0;
+  box-sizing: border-box;
+  line-height: 20px;
 }
 
 .button{
