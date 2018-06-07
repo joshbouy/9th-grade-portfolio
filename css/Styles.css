@@ -27,7 +27,7 @@
 .text {
   font-family: "Open Sans Light";
   src: url("https://fonts.google.com/download?family=Open%20Sans");
-  font-size: 2.5vw;
+  font-size: 2.5em;
   max-width: 100%;
   font-style: normal;
   font-variant: normal;
@@ -113,6 +113,26 @@ h1{
   text-align: center;
   padding: 100px 10px 0px 10px;
 }
+.headings{
+  font-family: "Open Sans Light";
+  src: url("https://fonts.google.com/download?family=Open%20Sans");
+  font-size: 3.8em;
+  max-width: 100%;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  color: #55A8A3;
+  line-height: 1.1;
+  box-sizing: border-box;
+  padding: 0 0 0;
+  margin: 0;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
 
 .h2right {
   text-align: right;
@@ -190,6 +210,12 @@ h1{
   padding-right: 12%;
 
 }
+.space2{
+  max-width: 100%;
+  height: auto;
+  margin: 0px 0px 0px 0px;
+  padding: 5vw;
+}
 
 .space2up {
   max-width: 100%;
@@ -222,7 +248,7 @@ h1{
 
 .btnback {
   background-color: #D0E0DD;
-  padding: .1px 50px .1px .1px;
+  padding: 0px 50px 0px 0px;
   text-align: right;
   display: block;
   margin: 0px auto;
