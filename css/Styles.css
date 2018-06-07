@@ -189,9 +189,10 @@ h1{
 .space2up {
   max-width: 100%;
   height: auto;
-  margin: -50px 0px 0px 0px;
+  margin: -5px 0px 0px 0px;
   padding: 5vw;
   padding-bottom: 5px;
+  padding-top: 5px;
 }
 .space2down {
   max-width: 100%;
