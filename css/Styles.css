@@ -15,6 +15,26 @@
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
+  color: #55A8A3;
+
+}
+
+h2, h3{
+  text-align: center;
+}
+
+
+
+.text-p {
+  text-align: center;
+  font-family: "Open Sans Light";
+  src: url("https://fonts.google.com/download?family=Open%20Sans");
+  font-size: 1vw;
+  max-width: 100%;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  color: #55A8A3;
 
 }
 
@@ -24,6 +44,11 @@
   padding-top: 0.5%;
   padding-right: 12%;
 
+}
+
+.space2 {
+  max-width: 100%;
+  height: 1000px;
 }
 
 .btnback {
@@ -53,6 +78,8 @@
 .skyline {
   max-width: 100%;
   height: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .button{
@@ -69,6 +96,51 @@
   display: inline-block;
 }
 
+.homebutton {
+background-color: #D0E0DD;
+padding: .1px 50px .1px .1px;
+text-align: right;
+display: block;
+margin: 0px auto;
+}
+
+.hbutton{
+  background-color:	#D0E0DD;
+  border: none;
+  color: #55A8A3;
+  padding: 1px;
+  text-align: center;
+  text-decoration: none;
+  margin: 1em;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+.hbutton:hover{
+  color: black;
+}
+
+.hbutton span {
+  transition: 0.5s;
+}
+
+.hbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+ .hbutton:hover span{
+   padding-right: 25px;
+ }
+ .hbutton:hover span:after {
+   opacity: 1;
+   right: 0;
+ }
+/* this is where the regular buttons go */
 .button:hover{
   color: black;
 }
@@ -108,7 +180,7 @@ ul#horizontal-list li {
 }
 
 html{
-  background-color: #c5e8ed;
+  background-color: #fff;
   margin:0;
   padding:0;
 }
