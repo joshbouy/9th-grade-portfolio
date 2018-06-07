@@ -1,3 +1,16 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+}
+@media screen and (max-width:600px){
+
+
+}
+
 
 .body {
   font-family: "Open Sans Light";
@@ -7,6 +20,10 @@
   font-weight: 700;
 }
 
+.design {
+  padding: 2em 0;
+
+}
 .text {
   font-family: "Open Sans Light";
   src: url("https://fonts.google.com/download?family=Open%20Sans");
@@ -14,9 +31,29 @@
   max-width: 100%;
   font-style: normal;
   font-variant: normal;
-  font-weight: 700;
+  font-weight: 400;
   color: #55A8A3;
 
+}
+
+#hello {
+  font-family: "Open Sans Light";
+  src: url("https://fonts.google.com/download?family=Open%20Sans");
+  font-size: 3.8em;
+  max-width: 100%;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  color: #55A8A3;
+  box-sizing: border-box;
+  padding: 0 0 0;
+  margin: 0;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
 }
 
 .bodytext {
@@ -26,8 +63,47 @@
   max-width: 100%;
   font-style: normal;
   font-variant: normal;
-  font-weight: 700;
+  font-weight: 400;
   color: #55A8A3;
+}
+
+.pdown{
+  font-family: "Open Sans Light";
+  src: url("https://fonts.google.com/download?family=Open%20Sans");
+  max-width: 100%;
+  color: grey;
+  text-align: center;
+  line-height: 1.1;
+  font-size: 1.5em;
+  margin: 0 0 0 0;
+  font-weight: 300;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+h2{
+  font-family: "Open Sans Light";
+  src: url("https://fonts.google.com/download?family=Open%20Sans");
+  font-size: 3.8em;
+  max-width: 100%;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  color: #55A8A3;
+  line-height: 1.1;
+  box-sizing: border-box;
+  padding: 0 0 0;
+  margin: 0;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+
 }
 
 h3{
@@ -40,26 +116,30 @@ h1{
 
 .h2right {
   text-align: right;
-  padding: 0px 250px 0px 100px;
+  padding: 0% 25% 0% 10%;
   max-width: 100%;
+  height: auto;
 }
 .h2left {
   text-align: left;
-  padding: 100px 0px 0px 250px;
+  padding: 10% 0% 0% 25%;
   max-width: 100%;
+  height: auto;
 
 }
 
 .pleft{
   text-align: left;
-  padding-left: 250px;
+  padding-left: 25%;
   color: grey;
+  height: auto;
 
 }
 .pright{
   text-align: right;
-  padding-right: 250px;
+  padding-right: 25%;
   color: grey;
+  height: auto;
 }
 .white {
   background-color: #fff;
@@ -94,6 +174,8 @@ h1{
   margin-left: auto;
   margin-right: auto;
   width: 500px;
+  max-width: 100%;
+  height: auto;
 }
 
 .space {
@@ -104,11 +186,19 @@ h1{
 
 }
 
-.space2 {
+.space2up {
+  max-width: 100%;
+  height: auto;
+  margin: -50px 0px 0px 0px;
+  padding: 5vw;
+  padding-bottom: 5px;
+}
+.space2down {
   max-width: 100%;
   height: auto;
   margin: -5px 0px 0px 0px;
   padding: 5vw;
+  padding-top: 5px;
 }
 
 .space3 {
@@ -116,6 +206,12 @@ h1{
   height: auto;
   margin: -5px 0px 0px 0px;
   padding: 2vw;
+}
+.space4 {
+  max-width: 25%;
+  height: auto;
+  margin: 0px 40px 0px 40px;
+  padding: 3vw;
 }
 
 .btnback {
@@ -135,12 +231,6 @@ h1{
   font-weight: 400;
 }
 
-.container{
-    background-image:url(https://wallpaper.wiki/wp-content/uploads/2017/06/Simple-wallpapers-HD-for-desktop.png);
-    background-position:center;
-    width: 100%;
-    height: 100%;
-}
 
 .skyline {
   max-width: 100%;
@@ -168,7 +258,7 @@ h1{
 .homebutton {
 background-color: #D0E0DD;
 background-repeat: no-repeat;
-padding: .1px 50px .1px .1px;
+padding: .1px .1px .1px .1px;
 text-align: right;
 display: block;
 margin: 0px auto;
@@ -181,7 +271,7 @@ outline: none;
   border: none;
   color: #55A8A3;
   padding: 1px;
-  text-align: center;
+  text-align: right;
   text-decoration: none;
   margin: 1em;
   border-radius: 2px;
@@ -271,4 +361,12 @@ body{
   width: 1000px;
   height: 500px;
   background-color: green;
+}
+
+#top {
+  padding-top: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  text-align: right;
+
 }
