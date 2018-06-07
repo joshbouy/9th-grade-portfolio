@@ -69,7 +69,7 @@ h1{
 
 .text-p {
   text-align: center;
-  font-family: "Open Sans Light";
+  font-family: "Open Sans";
   src: url("https://fonts.google.com/download?family=Open%20Sans");
   font-size: 1vw;
   font-style: normal;
@@ -84,7 +84,7 @@ h1{
 
 .text-p2{
   text-align: center;
-  font-family: "Open Sans Light";
+  font-family: "Open Sans";
   src: url("https://fonts.google.com/download?family=Open%20Sans");
   font-size: 1vw;
   font-style: normal;
