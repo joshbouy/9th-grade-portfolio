@@ -208,6 +208,8 @@ h1{
   padding-left: 12%;
   padding-top: 0.5%;
   padding-right: 12%;
+  max-width: 100%;
+  height: auto;
 
 }
 .space2{
@@ -314,6 +316,10 @@ img{
   border-radius: 2px;
   cursor: pointer;
   position: relative;
+}
+
+.pbutton:hover {
+  color: black;
 }
 
 
@@ -466,4 +472,16 @@ body{
   position: relative;
   width: 100%;
   background-size: cover;
+}
+
+.ftrback{
+  background-color: #D0E0DD;
+  width: 100%;
+  margin: auto;
+  clear: both;
+
+}
+
+.container {
+  height: 295px;
 }
