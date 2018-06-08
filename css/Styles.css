@@ -220,7 +220,7 @@ h1{
 .space2up {
   max-width: 100%;
   height: auto;
-  margin: -5px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 5vw;
   padding-bottom: 5px;
   padding-top: 5px;
@@ -248,26 +248,29 @@ h1{
 
 .btnback {
   background-color: #D0E0DD;
-  padding: 0px 50px 0px 0px;
+  padding: 25px 50px 0px 0px;
   text-align: right;
-  display: block;
+  display:  block;
   margin: 0px auto;
+  max-width: 100%;
+  height: auto;
 
 }
 
 .btntext {
   font-family: "Josefin Sans";
-  font-size: 1.5vw;
+  font-size: 1.5em;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
 }
 
 #skyline {
-  max-width: 2000px;
+  max-width: 100%;
+  width: auto;
   height: auto;
   margin: 0 auto;
-  padding: 50px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
   -webkit-margin-start: 0px;
@@ -297,6 +300,7 @@ img{
   position: relative;
   display: inline-block;
 }
+
 
 .homebutton {
 background-color: #D0E0DD;
@@ -388,6 +392,8 @@ ul#horizontal-list li {
   display: inline;
 }
 
+
+
 html{
   background-color: #fff;
   margin:0;
@@ -412,4 +418,19 @@ body{
   box-sizing: border-box;
   text-align: right;
 
+}
+
+#first {
+  max-width: 240px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  padding-top: 50px;
+
+}
+#second {
+  max-width: 180px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 0px;
 }
