@@ -86,7 +86,7 @@
 
 h2{
   font-family: "Open Sans Light";
-  src: url("https://fonts.google.com/download?family=Open%20Sans");
+  src: url('OpenSans-Light.ttf');
   font-size: 3.8em;
   max-width: 100%;
   font-style: normal;
@@ -115,7 +115,7 @@ h1{
 }
 .headings{
   font-family: "Open Sans Light";
-  src: url("https://fonts.google.com/download?family=Open%20Sans");
+  src: url('OpenSans-Light.ttf');
   font-size: 3.8em;
   max-width: 100%;
   font-style: normal;
