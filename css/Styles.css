@@ -116,7 +116,7 @@ h1{
   padding: 100px 10px 0px 10px;
 }
 .headings{
-  font-family: "Open Sans Light";
+  font-family: "Open Sans Light", sans-serif;
   src: url('OpenSans-Light.ttf');
   font-size: 3.8em;
   max-width: 100%;
@@ -487,4 +487,27 @@ body{
 .container {
   height: 295px;
   padding-top: 50px;
+}
+
+@keyframes icons {
+   0%   {left:0px; top:0px;}
+   50% {left:90%; top:0%;}
+   100% {left:0px; top:0px;}
+}
+
+.flying{
+animation-name: icons;
+animation-duration: 5s;
+height: auto;
+position: relative;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+padding: 50px;
+background-color: Transparent;
+border: none;
+}
+
+.btnimage {
+  max-width: 10%;
+  height: auto;
 }
