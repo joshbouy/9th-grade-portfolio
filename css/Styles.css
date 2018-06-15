@@ -27,7 +27,7 @@
 
 }
 .text {
-  font-family: "Open Sans Light";
+  font-family: "Open Sans Light", sans-serif;
   src: url("https://fonts.google.com/download?family=Open%20Sans");
   font-size: 2.5em;
   max-width: 100%;
@@ -39,7 +39,7 @@
 }
 
 #hello {
-  font-family: "Open Sans Light";
+  font-family: "Open Sans Light", sans-serif;
   src: url("https://fonts.google.com/download?family=Open%20Sans");
   font-size: 3.8em;
   max-width: 100%;
@@ -59,7 +59,7 @@
 }
 
 .bodytext {
-  font-family: "Open Sans Light";
+  font-family: "Open Sans Light", sans-serif;
   src: url("https://fonts.google.com/download?family=Open%20Sans");
   font-size: 1.5vw;
   max-width: 100%;
@@ -70,7 +70,7 @@
 }
 
 .pdown{
-  font-family: "Open Sans Light";
+  font-family: "Open Sans Light", sans-serif;
   src: url("https://fonts.google.com/download?family=Open%20Sans");
   max-width: 100%;
   color: grey;
@@ -87,7 +87,7 @@
 }
 
 h2{
-  font-family: "Open Sans Light";
+  font-family: "Open Sans Light", sans-serif;
   src: url('OpenSans-Light.ttf');
   font-size: 3.8em;
   max-width: 100%;
@@ -171,7 +171,7 @@ h1{
 
 .text-p {
   text-align: center;
-  font-family: "Open Sans";
+  font-family: "Open Sans Light", sans-serif;
   src: url("https://fonts.google.com/download?family=Open%20Sans");
   font-size: 1vw;
   font-style: normal;
@@ -185,7 +185,7 @@ h1{
 }
 
 .text-p2{
-  font-family: "Open Sans Light";
+  font-family: "Open Sans Light", sans-serif;
   src: url("https://fonts.google.com/download?family=Open%20Sans");
   font-size: 1em;
   max-width: 100%;
@@ -486,4 +486,5 @@ body{
 
 .container {
   height: 295px;
+  padding-top: 50px;
 }
