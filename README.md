@@ -1,4 +1,4 @@
-# joshbouy.github.io
+# https://joshbouy.github.io/9th-grade-portfolio/index.html
 \
 This is just a portfolio page for myself.
 
